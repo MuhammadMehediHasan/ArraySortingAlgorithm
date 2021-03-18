@@ -29,6 +29,7 @@ async function bubbleSort(array = []) {
 
 
         splash.currentTime = 0;
+        splash.volume = .3;
         splash.play();
 
         draw(arr, j);
